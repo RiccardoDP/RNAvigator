@@ -2,16 +2,16 @@
 
 #Having the software ready
 
-RNAvigator is a tool to identify potential functional RNA structure elements on an input RNA molecule. To run, RNAvigator requires additional software to be integrated in its pipeline. To download RNAvigator, you just need to clone it using the appropriated link on Github using the following command:
-
-git clone link
-
-To run RNAvigator, you need the following software:
-
-Superfold (https://github.com/Weeks-UNC/Superfold)
-Scanfold (https://github.com/moss-lab/ScanFold)
-python3.6 and python 2.7
-R
+RNAvigator is a tool to identify potential functional RNA structure elements on an input RNA molecule. To run, RNAvigator requires additional software to be integrated in its pipeline. To download RNAvigator, you just need to clone it using the appropriated link on Github using the following command:  
+  
+git clone link  
+  
+To run RNAvigator, you need the following software:  
+  
+Superfold (https://github.com/Weeks-UNC/Superfold)  
+Scanfold (https://github.com/moss-lab/ScanFold)  
+python3.6 and python 2.7  
+R  
 
 Be aware that they also have several dependencies, including the algorithms RNAfold and RNAstructure, so be use to install all of them.
 
