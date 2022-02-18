@@ -1,3 +1,5 @@
+## GPLv3 Delli Ponti 2022
+
 import os
 import sys
 import numpy
