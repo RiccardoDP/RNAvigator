@@ -1,3 +1,5 @@
+## GPLv3 Delli Ponti 2022
+
 args <- commandArgs()
 file<-as.character(args[5])
 length<-as.integer(args[6])
