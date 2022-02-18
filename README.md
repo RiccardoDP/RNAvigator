@@ -50,7 +50,11 @@ col1: RNA region
 col2: the metric in which the region is identified in the top 20%.  
 col3: the secondary structure in dots and brackets obtained from the merged ct file or Superfold.   
   
-Please keep in mind that the majority of the output files, including the main ones, will be overwritten in a following run, so be sure to copy them or save with another name. Superfold folders results, partition, and fold, are based on the file name for the shape pipeline, while for the cross pipeline will always have the name predcross.
+Please keep in mind that the majority of the output files, including the main ones, will be overwritten in a following run, so be sure to copy them or save with another name. Superfold folders results, partition, and fold, are based on the file name for the shape pipeline, while for the cross pipeline will always have the name predcross.  
+  
+ #License  
+   
+ RNAvigator is available under GPLv3 license.
 
 
 
