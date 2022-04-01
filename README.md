@@ -36,7 +36,11 @@ At the moment, CROSS algorithm is only available as a webserver at: http://servi
 To run RNAvigator, you just need to type the following while inside RNAvigator folder:  
   
 python3.6 rnavigator_shape.py shape_map_file window  
-python3.6 rnavigator_cross.py cross_file window  
+python3.6 rnavigator_cross.py cross_file window
+
+To quickly test RNAvigator, you can run the following examples:
+python3.6 rnavigator_cross.py test.cross 100
+python3.6 rnavigator_shape.py test.shape 100  
   
 where window is an integer that corresponds to the window that you want to use to cut and slide the main sequence. As standard value for our publication, we used 150, but of course this number should change especially for smaller or way bigger RNAs. As general rule, we suggest to have at least a window size 20-30 times smaller than your RNA, and in multiples of 50 (for example 50 for 1000 nucleotides).  
   

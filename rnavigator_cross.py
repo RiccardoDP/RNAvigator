@@ -36,7 +36,7 @@ for line in file:
 tmp=open("predshape.map","w")
 for line in file:
 	d=line.split()
-	norm=((1+10)*((-float(d[2])+1)/2)-0)
+	norm=((1)*((-float(d[2])+1)/2)-0)
 	tmp.write(str(d[0])+" "+str(norm)+" 0 "+str(d[1])+"\n")
 tmp.close()
 out.close()
