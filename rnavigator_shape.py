@@ -89,6 +89,8 @@ for line in entr:
 		vet=[]
 		vet.append(float(camp[1]))
 out.close()
+
+#this value can be modfied in order to select for example the bottom 10% or 30%, instead of the default 20%
 tot=round(n/10)*2
 
 #plotting with R
